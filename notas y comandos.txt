@@ -1,6 +1,17 @@
+// proyecto nuevo de git configuracion y inicializar
 -cd "ubicacion de carpeta" // para posicionar en la carpeta del proyecto
 -git init // para inicializar un repositorio Git
 -git status // para asegurarte de que estás en un repositorio de Git. 
+
+
+// configuracion de nombre y email antes de empezar a usar git
+git config --local user.name "Tu nombre aquí" // configura tu nombre
+git config --local user.email "Tu@email.aqui” // configura tu email
+
+
+
+// agregar y guardar archivos crear punto de restauracion
 -git add index.html // agregar solo un archivo al git 
 -git add . // agregar todo los archivos al git
--git status // para asegurar que el archivo se subio
+-git commit -m "descripcion de lo actualizado" // crear un punto de restauracion de cambio
+-git status // para verificar si se agrego correctamente los archivos y punto de respaldo 
