@@ -1,0 +1,6 @@
+-cd "ubicacion de carpeta" // para posicionar en la carpeta del proyecto
+-git init // para inicializar un repositorio Git
+-git status // para asegurarte de que estás en un repositorio de Git. 
+-git add index.html // agregar solo un archivo al git 
+-git add . // agregar todo los archivos al git
+-git status // para asegurar que el archivo se subio
